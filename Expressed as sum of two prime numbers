@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 bool checkPrime(int n){
-  int I;
+  int i;
   bool isPrime=true;
   if(n==0 || n==1){
       isPrime=false;
