@@ -1,0 +1,20 @@
+package watchcase;
+public class switchcase
+{
+ public static void main(string[] args){
+  int choice;
+  system.out.println("pick one:1. Hi\t2. Hey\t3. Hello\t);
+  scanner s= new scanner(system.in);
+  choice=s.nextInt();
+  switch(choice)
+  {
+   case 1:system.out.println("You said Hi");
+           break;
+   case 2:system.out.println("You said Hey");
+           break;
+   case 3:system.out.println("You said Hello");
+           break;
+   default:system.out.println("Invalid choice:);
+   }
+  }
+}
